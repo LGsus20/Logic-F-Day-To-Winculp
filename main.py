@@ -1,17 +1,17 @@
-import prepare_string
-
-print("¿Cuántas variables desea introducir?")
-quantity = int(input())
-
-values = []
-for number in range(quantity):
-    print(f"Introduce la variable {number+1}:")
-    values.append(input())
+import functions
 
 
-file = open('FdayToWinculp.txt', 'w')
-for value in values:
-    final_value = str(prepare_string.stringFormater(value))
-    file.write(final_value + "\n")
+def main():
+    print("¿Cuántas variables desea introducir?")
+    quantity = int(input())
 
-file.close()
+    values = []
+    for number in range(quantity):
+        print(f"Introduce la variable {number + 1}:")
+        values.append(input())
+
+    functions.create_file(values)
+
+
+if __name__ == '__main__':
+    main()
