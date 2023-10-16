@@ -14,12 +14,3 @@ def stringFormater(value):
         else:
             new_value += char
     return new_value
-
-
-def create_file(values):
-    file = open('FdayToWinculp.txt', 'w')
-    for value in values:
-        final_value = str(stringFormater(value))
-        file.write(final_value + "\n")
-
-    file.close()
