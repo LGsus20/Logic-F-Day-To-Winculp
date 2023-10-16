@@ -1,7 +1,8 @@
 # Logic-F-Day-To-Winculp
-Takes the values of "Logic Friday" converts them into a format that WinCULP can use.
+This app takes your text of "Logic Friday" and converts them into a format compatible with WinCULP.
 
-
-The program will ask you how many variables do you wanna introduce, after that it will
-ask you for the value n (value 1, value 2....), and when it's done it will write a 
-.txt file with the correct format.
+Steps:
+1- Paste your text in the left textbox.
+2- Click the "Convert Text" button.
+3- Afterward, click the "Copy Text" button.
+4- Now, simply paste your text into your WinCULP program.
